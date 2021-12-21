@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <label class="heat-slider heat-slider--v">
+            <span class="heat-slider--label">Set up the voice</span>
+            <span class="heat-slider--input">
+                <input
+                    type="range"
+                    value="32"
+                    min="0"
+                    max="120"
+                    oninput="doThings(event)"
+                />
+            </span>
+        </label>
+
+        <output>change the slider</output>
+
+        <script src="index.js"></script>
+    </body>
+</html>
