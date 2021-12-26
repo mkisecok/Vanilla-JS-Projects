@@ -24,7 +24,7 @@ buttons.forEach(btn =>{
        }
       value.textContent=count;
 
-      // style
+      // style depends on the big or small than 0
       if( count < 0){
         value.style.color = 'tomato'
       }
